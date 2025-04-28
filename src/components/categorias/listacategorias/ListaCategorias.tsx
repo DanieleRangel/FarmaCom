@@ -12,7 +12,7 @@ function ListarCategorias() {
         try {
         await buscar('/categorias', setCategorias);
         } catch (error: any) {
-            alert('Poxa, meio vazio por aqui!')
+            alert('Nenhuma categoria encontrada!')
         }
     }
 
