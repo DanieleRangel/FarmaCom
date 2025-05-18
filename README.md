@@ -1,54 +1,99 @@
-# React + TypeScript + Vite
+# FarmaCom
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**FarmaCom** é uma aplicação front-end que tem como objetivo facilitar a gestão visual de produtos e categorias para farmácias, com uma interface simples, intuitiva e responsiva.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Índice
 
-## Expanding the ESLint configuration
+- [Sobre o Projeto](#sobre-o-projeto)
+- [Funcionalidades](#funcionalidades)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Como Executar o Projeto](#como-executar-o-projeto)
+- [Deploy](#deploy)
+- [Imagens](#imagens)
+- [Contribuições](#contribuições)
+- [Licença](#licença)
+- [Autora](#autora)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Sobre o Projeto
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+FarmaCom é um projeto criado com foco no aprendizado e aplicação prática de desenvolvimento front-end usando React e Vite. A aplicação permite o cadastro e visualização de categorias e produtos, ideal para quem quer entender conceitos básicos de gerenciamento de estado, componentes e layout responsivo.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## Funcionalidades
+
+- Listagem de categorias
+- Listagem de produtos associados a categorias
+- Interface responsiva para diferentes dispositivos
+- Navegação simples e limpa
+
+---
+
+## Tecnologias Utilizadas
+
+- React
+- Vite
+- JavaScript (ES6+)
+- HTML5 & CSS3 (Tailwind CSS)
+
+---
+
+## Como Executar o Projeto
+
+Para rodar o FarmaCom localmente, siga os passos abaixo:
+
+``bash
+# Clone o repositório
+git clone https://github.com/DanieleRangel/FarmaCom.git
+
+# Entre na pasta do projeto
+cd FarmaCom
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
+npm run dev
+
+---
+## Deploy
+
+Este projeto está hospedado no Vercel:
+https://farma-com.vercel.app
+
+---
+
+## Imagens
+
+Exemplo da tela inicial do FarmaCom
+
+(Substitua a imagem pelo print real da sua aplicação)
+
+---
+
+##Contribuições
+
+Contribuições são bem-vindas! Se quiser ajudar, faça um fork, crie uma branch com sua feature e envie um pull request.
+
+---
+
+## Licença
+
+Este projeto está sob a licença MIT.
+
+---
+
+## Autora
+
+Feito com 💜 por Daniele Rangel
+
+
+---
+
+Me avisa se quiser que eu te ajude a subir esse arquivo direto no seu repo, ou se quiser, posso ajudar a ajustar qualquer outra coisa no projeto!
+
+
