@@ -1,10 +1,10 @@
-# FarmaCom
+# 🩺 FarmaCom
 
-**FarmaCom** é uma aplicação front-end que tem como objetivo facilitar a gestão visual de produtos e categorias para farmácias, com uma interface simples, intuitiva e responsiva.
+FarmaCom é uma aplicação front-end desenvolvida para facilitar a gestão visual de produtos e categorias em farmácias. Com uma interface simples, intuitiva e responsiva, o FarmaCom oferece um ambiente organizado para o controle eficiente do estoque, proporcionando uma experiência prática e acessível para os usuários.
 
 ---
 
-## Índice
+## 📌 Índice
 
 - [Sobre o Projeto](#sobre-o-projeto)
 - [Funcionalidades](#funcionalidades)
@@ -18,13 +18,13 @@
 
 ---
 
-## Sobre o Projeto
+## 💡 Sobre o Projeto
 
 FarmaCom é um projeto criado com foco no aprendizado e aplicação prática de desenvolvimento front-end usando React e Vite. A aplicação permite o cadastro e visualização de categorias e produtos, ideal para quem quer entender conceitos básicos de gerenciamento de estado, componentes e layout responsivo.
 
 ---
 
-## Funcionalidades
+## ✅ Funcionalidades
 
 - Listagem de categorias
 - Listagem de produtos associados a categorias
@@ -33,7 +33,7 @@ FarmaCom é um projeto criado com foco no aprendizado e aplicação prática de 
 
 ---
 
-## Tecnologias Utilizadas
+## 🛠 Tecnologias Utilizadas
 
 - React
 - Vite
@@ -42,7 +42,7 @@ FarmaCom é um projeto criado com foco no aprendizado e aplicação prática de 
 
 ---
 
-## Como Executar o Projeto
+## ▶️ Como Executar o Projeto
 
 Para rodar o FarmaCom localmente, siga os passos abaixo:
 
@@ -59,15 +59,17 @@ npm install
 # Inicie o servidor de desenvolvimento
 npm run dev
 
+A aplicação estará disponível no endereço http://localhost:5173
+
 ---
-## Deploy
+## 🌐 Deploy
 
 Este projeto está hospedado no Vercel:
 https://farma-com.vercel.app
 
 ---
 
-## Imagens
+## 📷 Imagens
 
 Exemplo da tela inicial do FarmaCom
 
@@ -75,19 +77,19 @@ Exemplo da tela inicial do FarmaCom
 
 ---
 
-##Contribuições
+## 🤝 Contribuições
 
 Contribuições são bem-vindas! Se quiser ajudar, faça um fork, crie uma branch com sua feature e envie um pull request.
 
 ---
 
-## Licença
+## 📜 Licença
 
 Este projeto está sob a licença MIT.
 
 ---
 
-## Autora
+##  👩‍💻 Autora
 
 Feito com 💜 por Daniele Rangel
 
